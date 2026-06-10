@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Projects | RSG TECH</title>
+  <meta
+    name="description"
+    content="Explore RSG TECH projects including websites, custom software tools, dashboards, PowerApps systems, and automation workflows."
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.jpeg" alt="RSG TECH Logo" class="brand-logo" />
+        <span>RSG TECH</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle">☰</button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container reveal">
+        <p class="eyebrow">Projects</p>
+        <h1>Explore websites, tools, dashboards, and automation systems.</h1>
+        <p>
+          Use the project explorer below to filter work by category. Select a project to view
+          a detailed breakdown of the problem, solution, features, tools, and result.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container project-explorer reveal">
+
+        <aside class="category-box">
+          <h2>Project Categories</h2>
+          <button class="category-btn active" data-category="all">All Projects</button>
+          <button class="category-btn" data-category="website">Website Development</button>
+          <button class="category-btn" data-category="software">Custom Software Tools</button>
+          <button class="category-btn" data-category="automation">Automation</button>
+        </aside>
+
+        <section class="project-display-box">
+          <div class="project-display-header">
+            <div>
+              <p class="eyebrow">Project Display</p>
+              <h2 id="projectCategoryTitle">All Projects</h2>
+            </div>
+            <p id="projectCategoryDescription">
+              Browse selected projects and click one to view detailed information below.
+            </p>
+          </div>
+
+          <div class="project-list" id="projectList"></div>
+
+          <div class="project-details" id="projectDetails">
+            <div class="empty-details">
+              <h3>Select a project</h3>
+              <p>Project details will appear here after you choose a project from the list above.</p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-box reveal">
+        <h2>Need something similar?</h2>
+        <p>RSG TECH can help turn your idea into a clean website, business tool, or automated workflow.</p>
+        <a href="contact.html" class="btn primary-btn">Start a Project</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="footer-brand">
+          <img src="assets/logo.jpeg" alt="RSG TECH Logo" />
+          <span>RSG TECH</span>
+        </a>
+        <p>Websites, custom software tools, and automation solutions.</p>
+      </div>
+
+      <div>
+        <h4>Pages</h4>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div>
+        <h4>Services</h4>
+        <a href="services.html#website-development">Website Development</a>
+        <a href="services.html#custom-software-tools">Custom Software Tools</a>
+        <a href="services.html#automation">Automation</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 RSG TECH. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact | RSG TECH</title>
+  <meta
+    name="description"
+    content="Contact RSG TECH for website development, custom software tools, PowerApps business apps, SharePoint workflows, and automation projects."
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.jpeg" alt="RSG TECH Logo" class="brand-logo" />
+        <span>RSG TECH</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle">☰</button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container reveal">
+        <p class="eyebrow">Contact</p>
+        <h1>Start a project with RSG TECH.</h1>
+        <p>
+          Need a website, custom software tool, PowerApps app, or automated workflow?
+          Send the details and let’s turn the idea into a clear plan.
+        </p>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container contact-grid">
+
+        <div class="contact-info reveal">
+          <p class="eyebrow">Let’s Talk</p>
+          <h2>Tell us what you want to build.</h2>
+          <p>
+            The best way to start is simple: explain your idea, your workflow, or the problem
+            you want solved. RSG TECH can help shape it into the right website, tool, or automation.
+          </p>
+
+          <div class="contact-card">
+            <h3>Project Types</h3>
+            <div class="focus-list">
+              <span>Website Development</span>
+              <span>Custom Software Tool</span>
+              <span>PowerApps App</span>
+              <span>Automation</span>
+              <span>Dashboard</span>
+              <span>Not Sure Yet</span>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <h3>Contact Info</h3>
+            <p>Email: <a href="mailto:abhiroopgoel@gmail.com">abhiroopgoel@gmail.com</a></p>
+            <p>Location: Kansas / Remote</p>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" action="mailto:abhiroopgoel@gmail.com" method="post" enctype="text/plain">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" placeholder="Your name" required />
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" placeholder="your@email.com" required />
+          </div>
+
+          <div class="form-row">
+            <label for="projectType">Project Type</label>
+            <select id="projectType" name="Project Type" required>
+              <option value="">Select a project type</option>
+              <option value="Website Development">Website Development</option>
+              <option value="Custom Software Tool">Custom Software Tool</option>
+              <option value="PowerApps Business App">PowerApps Business App</option>
+              <option value="Automation">Automation</option>
+              <option value="Dashboard">Dashboard</option>
+              <option value="Not Sure Yet">Not Sure Yet</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="timeline">Timeline</label>
+            <select id="timeline" name="Timeline">
+              <option value="">Select a timeline</option>
+              <option value="ASAP">ASAP</option>
+              <option value="1-2 Weeks">1-2 Weeks</option>
+              <option value="2-4 Weeks">2-4 Weeks</option>
+              <option value="1+ Month">1+ Month</option>
+              <option value="Still Planning">Still Planning</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="budget">Budget Range</label>
+            <select id="budget" name="Budget Range">
+              <option value="">Select a budget range</option>
+              <option value="Under $300">Under $300</option>
+              <option value="$300 - $750">$300 - $750</option>
+              <option value="$750 - $1500">$750 - $1500</option>
+              <option value="$1500+">$1500+</option>
+              <option value="Not Sure Yet">Not Sure Yet</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Project Details</label>
+            <textarea
+              id="message"
+              name="Message"
+              rows="7"
+              placeholder="Tell us what you need, what problem you want solved, and any features you have in mind."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn primary-btn form-btn">Send Project Request</button>
+
+          <p class="form-note">
+            Note: This form opens your email app. For a stronger production setup later, connect it to Formspree, Netlify Forms, or a backend endpoint.
+          </p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="footer-brand">
+          <img src="assets/logo.jpeg" alt="RSG TECH Logo" />
+          <span>RSG TECH</span>
+        </a>
+        <p>Websites, custom software tools, and automation solutions.</p>
+      </div>
+
+      <div>
+        <h4>Pages</h4>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div>
+        <h4>Services</h4>
+        <a href="services.html#website-development">Website Development</a>
+        <a href="services.html#custom-software-tools">Custom Software Tools</a>
+        <a href="services.html#automation">Automation</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 RSG TECH. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
